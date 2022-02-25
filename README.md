@@ -37,6 +37,7 @@ The following settings are required to connect to the API.
 | BaseUrl      | The URL to the API                 | Yes         |
 
 ### Prerequisites
+- At the moment of writing. The response of the permissions (Groups) contains invalid data. I've added a temporary fix to remove the invalid data from the response, so the connector works as intended. Make sure you test your response while implementing the connector.
 - Only the connection settings are required
 
 ### Remarks
