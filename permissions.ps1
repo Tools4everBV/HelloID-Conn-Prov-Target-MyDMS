@@ -58,10 +58,6 @@ try {
     }
     $permissions = Invoke-RestMethod @connection -Verbose:$false
 
-    #ToDo Incorrect response retrieved from the webservice ! Fix /test the code after the webservice result is solved.
-    $persmissionsCorrected = $permissions.substring($permissions.indexof('[')) | ConvertFrom-Json
-    $permissions = $persmissionsCorrected
-
     $permissions | ForEach-Object {
         $_ | Add-Member @{
             DisplayName    = $_._name
