@@ -10,7 +10,8 @@
 <br />
 <p align="center">
   <img src="https://www.tools4ever.nl/connector-logos/mydms-logo.png">
-</p> 
+</p>
+
 ## Table of contents
 
 - [Introduction](#Introduction)
